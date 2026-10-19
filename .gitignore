@@ -1,0 +1,8 @@
+# system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editor / tools
+node_modules/
+*.log

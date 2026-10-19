@@ -1,0 +1,11 @@
+/* Shared rules used on every page (loaded before the page's own stylesheet). */
+
+/* Blocks that site.js shows and hides (menu, lightbox, form states, loader). */
+zy-if { display: contents; }
+[hidden] { display: none !important; }
+
+/* Skip the intro loader on repeat visits in the same session, or when motion is reduced. */
+.no-intro .ldr { display: none !important; }
+
+/* Stop the page scrolling behind an open lightbox. */
+html.lock { overflow: hidden; }
